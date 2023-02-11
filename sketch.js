@@ -5,12 +5,16 @@ var bgColor;
 
 function setup() { 
   createCanvas(400, 400);
+ 
+
 	numIters = 10; 
   spc = width / numIters;
 
   //random background color
 	bgColor =color( random(255), random(255), random(255) );
   myFunction();
+
+
 } 
 
 
